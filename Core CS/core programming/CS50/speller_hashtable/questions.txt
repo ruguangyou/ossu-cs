@@ -1,0 +1,7 @@
+0.  an invented long word said to mean a lung disease caused by inhaling very fine ash and sand dust.
+1.  get resource usage
+2.  16
+3.  by passing value, we make copy of the value, which takes a lot of memory. But by passing reference, we don't have to use so much memory.
+4.
+5.  TODO
+6.  TODO
