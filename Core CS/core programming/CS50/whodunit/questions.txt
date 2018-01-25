@@ -1,0 +1,12 @@
+1.  stdint.h is a header file in the C standard library, which defines a set of typedefs that specify the exact width of an integer, and the "typedef" is used in macro.
+2.  To specify exact width and signing.
+3.  BYTE 8; DWORD 32; LONG 32; WORD 16
+4.  0x4d42
+5.  biSize is the size of BITINFOHEADER, i.e., 40 bytes. bfSize is the size of all bytes in the file.
+6.  if biHeight is negative, the bitmap is top-down, with the origin at the upper left corner.
+7.  biBitCount
+8.  the reason that fopen might return NULL are: 1)the file does not exist; 2)no permissions to that file; 3)the file is being used by other program.
+9.  the third argument in fread is the number of elements to be readed, in our code we only read the either BITMAPFILEHEADER or BITMAPINFOHEADER once.
+10. 3
+11. fseek moves the file pointer to a specific position.
+12. current position of the file pointer.
